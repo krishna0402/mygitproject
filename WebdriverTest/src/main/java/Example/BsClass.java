@@ -23,7 +23,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 
 
 public class BsClass implements Constant{
-	public WebDriver driver;	
+	public static WebDriver driver;	
 	public ExtentReports extent;
 	 @BeforeSuite
 	 public void beforesuite()
@@ -37,7 +37,7 @@ public class BsClass implements Constant{
 		{ System.setProperty("webdriver.gecko.driver","C:\\Users\\WINDOWS\\eclipse-workspace\\WebdriverTest\\Res\\geckodriver.exe");
 		    driver = new FirefoxDriver();  
 		}		
-	 else if (Constant.Browser.equals("chrome"))
+	  if (Constant.Browser.equals("chrome"))
 	 {
 		 System.setProperty("webdriver.chrome.driver","C:\\Users\\WINDOWS\\eclipse-workspace\\WebdriverTest\\Res\\chromedriver.exe");
 		    driver = new ChromeDriver();
