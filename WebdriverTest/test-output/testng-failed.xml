@@ -3,17 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test" verbose="2">
     <classes>
-      <class name="Example.NewTest"/>
+      <class name="Mainpage.Yahoopage"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="Example.NewTest">
-        <methods>
-          <include name="testEasy"/>
-          <include name="beforeTest"/>
-        </methods>
-      </class> <!-- Example.NewTest -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

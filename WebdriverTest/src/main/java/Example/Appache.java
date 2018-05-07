@@ -10,7 +10,7 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class Appache {
-	String path="C:\\Users\\WINDOWS\\Desktop\\Project1.xlsx";
+	String path="C:\\Users\\WINDOWS\\Desktop\\Yahoo.xlsx";
 
 	public String getExceldata(String sheetname, int rownum, int colnum ) throws Throwable
 	{
